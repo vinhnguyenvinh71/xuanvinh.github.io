@@ -74,7 +74,7 @@ a {
     border-radius: 50%;
 }
 @media (max-width: 426px) {
-    a:active {
+    a{
         text-decoration: none;
     }
     .m-main-item {
@@ -101,7 +101,7 @@ a {
         font-weight: 500;
     }
     .text {
-        font-size: 0.75rem;
+        font-size: 0.9rem;
     }
 
     .introduce .intro-icon .icon {
@@ -117,9 +117,7 @@ a {
     .introduce .intro-more a {
         padding: 5px 20px;
     }
-    .introduce .intro-more a:active {
-        background-color: #db545a;
-    }
+    
     .introduce .intro-more a {
         letter-spacing: 2px;
     }
