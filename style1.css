@@ -1,0 +1,118 @@
+.introduce .intro-name {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+    line-height: 1;
+}
+.introduce .intro-more a {
+    background-color: black;
+    color: white;
+}
+.item-mt {
+    margin-top: 20px;
+}
+.main-title {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+}
+.title {
+    font-weight: 500;
+    line-height: 1.2;
+}
+.text {
+    font-family: "Open Sans", sans-serif;
+}
+.b-img {
+    padding-bottom: 30px;
+    padding: 0px;
+
+    background-image: url("images/vbbb.jpg");
+}
+body {
+    color: black;
+}
+a {
+    color: black;
+}
+.line-hight {
+    line-height: 2;
+}
+.profile .img {
+    border-radius: 50%;
+}
+a {
+    text-decoration: none;
+}
+.main-title {
+    border-bottom-style: solid;
+    border-color: #db545a;
+}
+.m-main-item {
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+.m-main-item {
+    margin: 30px 20px;
+}
+.flex-col {
+    flex-direction: column !important;
+}
+.flex-cent {
+    align-items: center !important;
+}
+.main-title {
+    font-size: 1.5rem;
+    border-width: 3px;
+}
+.title {
+    font-size: 1.25rem;
+}
+.mt-text {
+    margin-top: 10px;
+}
+.title-text {
+    font-weight: 500;
+}
+.text {
+    font-size: 0.9rem;
+}
+.b-img {
+    padding: 0px 15px;
+}
+
+.introduce .intro-icon .icon {
+    height: 50px;
+    width: 50px;
+
+    background-color: #db545a;
+    border-radius: 50%;
+}
+.introduce .intro-name {
+    font-size: 1.5rem;
+}
+.introduce .intro-more a {
+    padding: 5px 20px;
+}
+
+.introduce .intro-more a {
+    letter-spacing: 2px;
+}
+.profile .img {
+    height: 100px;
+    width: 100px;
+}
+.about .img {
+    object-fit: cover;
+    height: 125px;
+}
+.introduce-img {
+    display: none;
+}
+}
