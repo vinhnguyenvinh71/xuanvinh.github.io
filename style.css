@@ -34,7 +34,7 @@ a {
     line-height: 1.2;
 }
 
-@media (max-width: 427px) {
+@media (max-width: 576px) {
     .text {
         font-size: 00.9rem;
     }
