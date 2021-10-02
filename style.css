@@ -1,259 +1,126 @@
-.introduce .intro-name {
-    font-family: "Times New Roman", Times, serif;
-    font-weight: 700;
-    line-height: 1;
-}
-.introduce .intro-more a {
-    background-color: black;
-    color: white;
-}
-.item-mt {
-    margin-top: 20px;
-}
-.main-title {
-    font-family: Roboto, sans-serif;
-    font-weight: 600;
-    line-height: 1.1;
-}
-.title {
-    font-weight: 500;
-    line-height: 1.2;
-}
-.text {
-    font-family: "Open Sans", sans-serif;
-}
 body {
     color: black;
 }
 a {
     color: black;
+    text-decoration: none !important;
 }
-.line-hight {
-    line-height: 2;
+.b-img {
+    background-image: url("images/back.jpg");
+    background-position: center;
+    background-size: contain;
 }
-.profile .img {
-    border-radius: 50%;
-}
-a {
-    text-decoration: none;
-}
+
 .main-title {
+    font-weight: 400;
+    line-height: 1.1;
+}
+.main-title .title {
+    font-family: Roboto, sans-serif;
+
     border-bottom-style: solid;
     border-color: #db545a;
 }
-.about .img {
-    object-fit: cover;
+.profile-text-items {
+    width: 100%;
 }
-.b-img {
-    background-image: url("images/vbbb.jpg");
+.main-profile .img {
+    height: auto;
+
+    border-radius: 50%;
+}
+.main-profile .profile-text .title {
+    font-weight: 400;
+    line-height: 1.2;
 }
 
-@media (max-width: 426px) {
-    /* .m-main-item {
-        margin: 30px 20px;
-    }
-    .flex-col {
-        flex-direction: column !important;
-    }
-    .flex-cent {
-        align-items: center !important;
-    }
-    .main-title {
-        border-width: 3px;
-    }
-    
+@media (max-width: 427px) {
     .text {
-        font-size: 0.9rem;
+        font-size: 00.9rem;
     }
-    
-
-    
-    .profile .img {
-        height: 100px;
-        width: 100px;
-    }
-    .about .img {
-        height: 150px;
-    }
-    .introduce-img {
-        display: none;
-    } */
-}
-
-@media (max-width: 769px) and (min-width: 426px) {
-    /* .m-main-item {
-        margin: 30px 40px;
+    .b-img {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
     .main-title {
-        border-width: 4px;
+        font-size: 1.5rem;
     }
-    
-    .about .img {
-        height: 300px;
+    .main-title .title {
+        border-bottom-width: 2.5px;
     }
-    .pro-about {
-        width: 290px;
+    .main-profile .profile-title .text {
+        font-size: 1.1rem;
     }
-    .introduce-img {
-        height: 200px;
-        width: 200px;
-    } */
-}
-/* @media (min-width: 1439px) {
-    .menu {
-        height: 80px;
-    }
-    .menu img {
-        height: 35px;
-    }
-
-    .introduce .introduce-content {
-        width: 550px;
-
-        margin-top: 75px;
-    }
-    .introduce .intro-icon .icon {
-        height: 75px;
-        width: 75px;
-
-        background-color: #db545a;
-        border-radius: 50%;
-    }
-    /*.introduce .intro-name {
-        font-family: "Times New Roman", Times, serif;
-        font-size: 6rem;
-        font-weight: 700;
-        line-height: 1;
-    }
-    .introduce .intro-text {
-        font-weight: 600;
-        font-size: large;
-    }
-    .introduce .intro-more {
-        height: 55px;
-    }
-    .introduce .intro-more a {
-        padding: 10px 30px;
-        letter-spacing: 3px;
-
-        background-color: black;
-        color: white;
-        text-decoration: none;
-    }
-    .introduce .intro-more a:hover {
-        background-color: #db545a;
-    }
-    .introduce .introduce-img {
-        height: 700px;
-    }
-
-    .main.profile .pro-about {
-        width: 300px;
-    }
-    .main.profile .title-text {
-        font-size: 1.25rem;
-    }
-    .main.profile .profile-content {
-        margin-top: 75px;
-    }
-
-    .main.profile .pro-img {
-        margin: 0px 125px;
-    }
-    .main.profile .pro-details .details-content .title {
-        font-weight: 700;
-        line-height: 2.2;
-        font-size: 1rem;
-    }
-    .main.profile .img {
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-    }
-    .main.profile a {
+    .main-profile .profile-text .title {
         font-size: 1.2rem;
-
-        color: black;
     }
-
-    .main.about .main-title {
-        border-bottom: 7px solid #db545a;
-    }
-    .main.about .text {
-        width: 550px;
-    }
-    .main.about .img {
-        object-fit: cover;
-        width: 1000px;
-        height: 530px;
-    }
-} */
-
-/* except mobile */
-@media (min-width: 426px) {
-    /* .fix-mar {
-        margin: 0px;
-    }
-    .b-img {
-        padding: 0px;
-    }
-    .profile .img {
-        height: 200px;
-        width: 200px;
-    }
-    .m-profile-img{
-        margin: 25px;
-    } */
-}
-
-/* table and mobile */
-@media (max-width: 769px) {
-    .introduce .intro-icon .icon {
-        height: 50px;
-        width: 50px;
-
-        background-color: #db545a;
-        border-radius: 50%;
-    }
-    .profile .img{
-        height: 100px;
+    .main-profile .img {
         width: 100px;
     }
-    /* .menu-logo {
-        height: 60px;
+}
+@media (max-width: 769px) and (min-width: 427px) {
+    .b-img {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
-    .logo-img {
-        height: 25px;
-    }
-    .introduce .intro-icon .icon {
-        height: 50px;
-        width: 50px;
-
-        background-color: #db545a;
-        border-radius: 50%;
-    }
-    .introduce .intro-more a {
-        letter-spacing: 2px;
+    .lh {
+        line-height: 1.5;
     }
     .main-title {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
-    .title {
-        font-size: 1.25rem;
+    .main-title .title {
+        border-bottom-width: 4px;
     }
-    .mt-text {
-        margin-top: 10px;
+    .main-profile .profile-title .text {
+        font-size: 1.2rem;
     }
-    .title-text {
-        font-weight: 500;
+    .main-profile .profile-text .title {
+        font-size: 1.3rem;
     }
+    .main-profile .img {
+        width: 125px;
+    }
+}
+@media (min-width: 769px) {
     .b-img {
-        padding: 0px 15px;
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
-    .introduce .intro-name {
+    .lh {
+        line-height: 2;
+    }
+    .main-title {
+        font-size: 3rem;
+    }
+    .main-title .title {
+        border-bottom-width: 5px;
+    }
+    .main-profile .profile-title .text {
         font-size: 1.5rem;
     }
-    .introduce .intro-more a {
-        padding: 5px 20px;
-    } */
+    .main-profile .profile-text .title {
+        font-size: 1.5rem;
+    }
+    .main-profile .img {
+        width: 175px;
+    }
+}
+
+@media (max-width: 769px) {
+    .main-menu .img {
+        width: 60px;
+    }
+    .main-introduce .icon {
+        height: 50px;
+        width: 50px;
+    }
+    .main-introduce a {
+        letter-spacing: 3px;
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+    .main-introduce .intro-more {
+        padding: 10px 0px;
+    }
 }
