@@ -43,16 +43,16 @@ a {
         padding-bottom: 25px;
     }
     .main-title {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .main-title .title {
         border-bottom-width: 2.5px;
     }
     .main-profile .profile-title .text {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .main-profile .profile-text .title {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .main-profile .img {
         width: 100px;
@@ -110,17 +110,5 @@ a {
 @media (max-width: 769px) {
     .main-menu .img {
         width: 60px;
-    }
-    .main-introduce .icon {
-        height: 50px;
-        width: 50px;
-    }
-    .main-introduce a {
-        letter-spacing: 3px;
-        font-size: 1rem;
-        padding: 10px 20px;
-    }
-    .main-introduce .intro-more {
-        padding: 10px 0px;
     }
 }
