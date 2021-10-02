@@ -42,6 +42,9 @@ a {
         padding-top: 25px;
         padding-bottom: 25px;
     }
+    .m{
+        margin: 15px 0px;
+    }
     .main-title {
         font-size: 1.2rem;
     }
