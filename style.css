@@ -37,6 +37,10 @@ a {
     padding: 4px 12px;
     border-radius: 50%;
 }
+.template .template-item .item-img img{
+    width: 100%;
+    height: auto;
+}
 @media (max-width: 576px) {
     .lh {
         line-height: 1.5;
