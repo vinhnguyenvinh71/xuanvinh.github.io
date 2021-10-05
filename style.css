@@ -22,16 +22,16 @@ a {
     border-bottom-style: solid;
     border-color: #db545a;
 }
-.main.profile .title {
+.profile .title {
     font-weight: 500;
     line-height: 1.2;
 }
-.main.profile .img {
+.profile .img {
     height: auto;
 
     border-radius: 50%;
 }
-.main.skill .number{
+.language .number{
     background: #db545a;
     color: white;
     padding: 4px 12px;
@@ -55,10 +55,10 @@ a {
         border-bottom-width: 3px;
     }
 
-    .main.profile .title {
+    .profile .title {
         font-size: 1.1rem;
     }
-    .main.profile .img {
+    .profile .img {
         width: 100px;
     }
 }
@@ -74,10 +74,10 @@ a {
         border-bottom-width: 4px;
     }
 
-    .main.profile .title {
+    .profile .title {
         font-size: 1.3rem;
     }
-    .main.profile .img {
+    .profile .img {
         width: 125px;
     }
 }
@@ -93,13 +93,13 @@ a {
         border-bottom-width: 5px;
     }
 
-    .main .text {
+    .text {
         font-size: 1.1rem;
     }
-    .main.profile .title {
+    .profile .title {
         font-size: 1.5rem;
     }
-    .main.profile .img {
+    .profile .img {
         width: 175px;
     }
 }
