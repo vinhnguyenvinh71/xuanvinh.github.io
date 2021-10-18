@@ -15,10 +15,19 @@
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
   <link rel="stylesheet" href="style.css">
+
+
+
+
 </head>
 
 <body>
+
+
+
+
   <section class="top-page">
     <div class="content page-p d-sm-flex">
       <div class="top-text mt-5 mb-sm-5 mr-sm-5">
@@ -87,16 +96,34 @@
         </div>
       </div>
   </section>
+  <section>
+    <div class="footer">
+      <div class="content page-p txt-center txt-color-w pt-5 pb-5">
+        <h3 class="title p-2">CALL US</h3>
+        <div class="text p-2">1 (234) 567-891, 1 (234) 987-654</div>
+        <h3 class="title p-2">LOCATION</h3>
+        <div class="text p-2">121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</div>
+        <h3 class="title p-2">BUSINESS HOURS</h3>
+        <div class="text p-2">Mon – Fri …… 10 am – 8 pm, Sat, Sun ....… Closed</div>
+      </div>
+    </div>
+  </section>
+  <div id="back"><i class="fas fa-arrow-up"></i></div>
 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
+  <!-- Thư viện jquery đã nén phục vụ cho bootstrap.min.js  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Thư viện popper đã nén phục vụ cho bootstrap.min.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <!-- Bản js đã nén của bootstrap 4, đặt dưới cùng trước thẻ đóng body-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 </body>
+
+<script>
+  $(document).ready(function () {
+    $("#back").click(function () {
+      $('html, body').animate({ scrollTop: 0 }, 1000);
+    });
+  });
+</script>
 
 </html>

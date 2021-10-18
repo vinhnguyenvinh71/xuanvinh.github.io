@@ -1,3 +1,18 @@
+#back{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #478ac9;
+    cursor: pointer;
+}
+#back i{
+    color: white;
+    padding: 18px;
+}
+
 .page-p {
     padding: 0px 12%;
 }
@@ -132,7 +147,9 @@
 .about2 .about-text-boder {
     width: 50%;
 }
-
+.footer {
+    background-color: #1a1a1a;
+}
 @media (max-width: 576px) {
     .full-w {
         width: 100% !important;
@@ -172,7 +189,8 @@
         display: none !important;
     }
     .about2 .about-text-boder {
-        margin-top: 125px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
 @media (max-width: 993px) and (min-width: 577px) {
