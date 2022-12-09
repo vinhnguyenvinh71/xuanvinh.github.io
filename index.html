@@ -2,119 +2,95 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<style>
+    @media only screen and (max-width: 600px) {
+        #logo {
+            max-height: 150px;
+        }
+
+        #title {
+            color: #FFFF00;
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    @media only screen and (min-width: 600px) {
+        #logo {
+            max-height: 175px;
+        }
+
+        #title {
+            color: #FFFF00;
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        #logo {
+            max-height: 250px;
+        }
+
+        #title {
+            color: #FFFF00;
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    #main {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("img/Web Bao Tri-03.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+    }
+
+    .txt-b {
+        font-weight: 700;
+    }
+</style>
+
 <body>
-  <section class="top-page">
-    <div class="content page-p d-sm-flex">
-      <div class="top-text mt-5 mb-sm-5 mr-sm-5">
-        <h1 class="lh">Home Repair</h1>
-        <h2 class="lh">& Renovating</h1>
-          <div class="text mt-4">Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-          <div class="text mt-2">Image from <b class="txt-color-b">Freepik</b></div>
-          <div class="btn-read d-flex mt-4">
-            <a href="#">READ MORE</a>
-          </div>
-      </div>
-      <div class="top-img ml-auto pb-5 txt-center">
-        <img class="img-down" src="images/gfb.jpg" alt="">
-        <img class="img-up" src="images/v-min.png" alt="">
-      </div>
+    <div id="main" class="d-flex flex-column justify-content-center align-items-center">
+        <img id="logo" class="mb-3" src="img/Web Bao Tri-05.png" alt="">
+        <div id="title" class="text-uppercase txt-b">website hiện đang bảo trì</div>
+        <p class="text-uppercase text-center text-white txt-b">
+            mọi thông tin chi tiết quý khách vui lòng liên hệ<br>
+            hotline: 1900 636 787 (08:00 - 17:00)<br>
+            fanpage: suoi tien theme park
+        </p>
     </div>
-    </div>
-  </section>
-  <section class="about1">
-    <div class="content mx-auto txt-center">
-      <div class="title">
-        <h1>About Us</h1>
-      </div>
-      <div class="text mt-4 mt-lg-5">Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she
-        his law
-        the
-        spoil round defer. In surprise concerns informed betrayed he learning is ye. Ignorant formerly so ye blessing.
-        He as spoke avoid given downs money on we. Of properly carriage shutters ye as wandered up repeated moreover.
-      </div>
-      <div class="btn-learn d-flex justify-content-center mt-4 mt-lg-5"><a class="txt-color-w" href="#">LAERN MORE</a>
-      </div>
-    </div>
-  </section>
-  <section class="repair">
-    <div class="content page-p pt-5 pb-5">
-      <div class="box-content">
-        <div class="box-text p-4">
-          <h5 class="txt-color-w">repair services</h5>
-          <h1>HOW CAN WE HELP YOU?</h1>
-          <hr>
-        </div>
-        <div class="text txt-color-w mt-3">Image from <b class="txt-color-b">Freepik</b></div>
-      </div>
-    </div>
-  </section>
-  <section class="about2">
-    <div class="content d-flex">
-      <div class="about-img d-flex justify-content-end align-items-center">
-        <div class="img"></div>
-      </div>
-      <div class="about-text-boder full-w">
-        <div class="about-text d-flex flex-column page-p">
-          <h1>About us</h1>
-          <div class="text mt-4">We offer educational and repair services for homeowners. Depending on your household
-            size
-            and
-            income, you may qualify for home repair assistance. See what we can help you with today!</div>
-          <div class="text txt-color-r mt-3 mt-4 d-flex">
-            <div class="txt-i">Image from</div>&nbsp;<b class="txt-color-b">Freepik</b>
-          </div>
-          <div class="btn-read d-flex mt-4">
-            <a href="#">READ MORE</a>
-          </div>
-        </div>
-      </div>
-  </section>
-  <section>
-    <div class="footer">
-      <div class="content page-p txt-center txt-color-w pt-5 pb-5">
-        <h3 class="title p-2">CALL US</h3>
-        <div class="text p-2">1 (234) 567-891, 1 (234) 987-654</div>
-        <h3 class="title p-2">LOCATION</h3>
-        <div class="text p-2">121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</div>
-        <h3 class="title p-2">BUSINESS HOURS</h3>
-        <div class="text p-2">Mon – Fri …… 10 am – 8 pm, Sat, Sun ....… Closed</div>
-      </div>
-    </div>
-  </section>
-  <div id="back"><i class="fas fa-arrow-up"></i></div>
 
-  <!-- Thư viện jquery đã nén phục vụ cho bootstrap.min.js  -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Thư viện popper đã nén phục vụ cho bootstrap.min.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-  <!-- Bản js đã nén của bootstrap 4, đặt dưới cùng trước thẻ đóng body-->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-
-  <script>
-    $(document).ready(function () {
-      $("#back").click(function () {
-        $('html, body').animate({ scrollTop: 0 }, 1000);
-      });
-    });
-  </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
